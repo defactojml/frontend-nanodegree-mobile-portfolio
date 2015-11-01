@@ -1,0 +1,9 @@
+CACHE MANIFEST
+**/*.css
+
+NETWORK:
+index.html
+**/*.jpg
+
+
+

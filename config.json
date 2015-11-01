@@ -1,0 +1,32 @@
+{
+  "person": {
+    "firstName": "jean-michel eddy patrick",
+    "lastName": "legrand",
+    "fullName": "<%= person.firstName %>, <%= person.lastName %>"
+  },
+  "watch": {
+    "files": ["journal.txt"],
+    "tasks": ["pat"]
+  },
+  "uglify": {
+    "dist": {
+      "files": {
+        "dist/app.min.js": "app/**/*.js"
+      }
+    },
+    "js": {
+      "src":["build/app.js"],
+      "dest": "build/app.js"
+    }
+  },
+  "concat": {
+    "js" : {
+      "src": ["app/**/*.js"],
+      "dest": "build/app.js"
+    }
+  },
+  "clean": {
+    "build" : "build"
+  }
+
+}
