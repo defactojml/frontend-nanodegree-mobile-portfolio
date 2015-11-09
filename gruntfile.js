@@ -54,13 +54,6 @@ module.exports = function (grunt) {
             src: ['project-2048.html', 'project-mobile.html', 'project-webperf.html'],
             dest: 'dist/'
           },
-          /*{
-           cwd: 'img/',
-           dest: 'dist/imgages/',
-           src: ['*'],
-           expand: true,
-           filter: 'isFile'
-           }*/
           {
             cwd: 'views/images/',
             dest: 'dist/views/images/',
